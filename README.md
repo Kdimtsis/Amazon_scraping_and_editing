@@ -1,2 +1,8 @@
 # Amazon_scraping_and_editing
-This code scrapes data from amazon saves it to csv and then cleans the csv.
+This code scrapes data from Amazon saves it to csv and then cleans the csv. It works for anything the user asks for as long as it exists in Amazon
+
+1) At first it asks the user to enter a search item and then 
+2) Using selenium it scrapes the name, the price, the rating and the review counts for all results for all pages.
+3) Create a csv that stores the data
+4) Using OS and Glob module it finds the latest csv file that created in the current working directory
+5) Import the latest csv to pandas, clean the dataframe and save it to the final csv
