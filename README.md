@@ -1,7 +1,9 @@
-# Amazon_scraping_and_editing
+# Amazon_scraping_and_editing_data
+Libraries that were used: Beautiful soup, requests, pandas, os, glob, csv
+
 This code scrapes data from Amazon saves it to csv and then cleans the csv. It works for anything the user asks for as long as it exists in Amazon
 
-1) It asks the user to enter a search item and then 
+1) It asks the user to enter a search item
 2) Using selenium it scrapes the name, the price, the rating and the review counts for all results for all pages.
 3) Create a csv that stores the data
 4) Using OS and Glob module it finds the latest csv file that created in the current working directory
