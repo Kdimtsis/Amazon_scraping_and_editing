@@ -187,5 +187,5 @@ class amazon():
         table.to_csv(new_name, index=False)
 
 
-if __name__ = "__main__:
+if __name__ == "__main__:
     amazon().clean_csv()
