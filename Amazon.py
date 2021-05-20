@@ -178,7 +178,7 @@ class amazon():
         table.rename(columns={"Rating": "Rating (/5)"}, inplace=True)
 
         # SORT COLUMNS FIRST BY HIGHEST RATING THEN WITH MOST REVIEWS AND LOWEST PRICE
-        table.sort_values(["Rating (/5)", "Review Counts", "Price"], ascending=[False, False, True], inplace=True)
+        table.sort_values(["Review Counts", "Rating (/5)", "Price"], ascending=[False, False, True], inplace=True)
 
         # SAVE DATAFRAME TO A NEW CSV FILE
         path = self.path
