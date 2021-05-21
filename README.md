@@ -5,7 +5,7 @@ This class scrapes data from an Amazon prooduct, saves them to a csv and then cl
 
 Τhe user inputs a search item and using Selenium the amazon page opens in a Google Chrome window.  
 
-## Gathering the page urls
+### Gathering the page urls
 
 Next step is to get the urls of all the pages for the item that was inserted. To do this i used Selenium. By locating the "Next" button ***(driver.find_element_by_xpath)*** i clicked it to navigate through all pages and for each page i got the url by using the command ***driver.current_url()***. The urls were saved and stored into a list.
 
